@@ -1,0 +1,84 @@
+h1, h2, h3 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: normal;
+}
+
+h1 {
+  font-size: 30px;
+  color: #364156;
+}
+
+h2 {
+  font-size: 20px;
+  color: #6582b8;
+}
+
+img {
+  border-radius: 50%;
+}
+
+body {
+  background-color: #f2f7f4; */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #011638;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+.btn-doggy{
+  color:rgb(235, 107, 107);
+  background-color: #e7d7a3;
+  text-decoration: #CDCDCD;
+  box-shadow: 0 10px 30px rgba((0), 0, 0, 1);
+  border-radius: 4px;
+  /* border: 2px solid #972a3a; */
+  margin: 50px;
+  padding: 15px;
+}
+
+.btn-doggy:hover{
+  color: #214E34;
+  background-color: #a38c40;
+}
+
+.card{
+  background: #f8f1db;
+  border: #edafb8;
+  border-radius: 4px;
+  box-shadow: 2px 10px 30px gainsboro;
+  margin: 20px;
+  padding: 30px;
+}
+
+.list_inline {
+  list-style: none;
+  margin: 0 15px;
+  padding: 10px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 50px;
+/* }:hover{
+  color: #214E34;
+  background-color: #a38c40; */
+}
+
+.list_inline i {
+  margin: 0 15px;
+  color: rgb(230, 189, 142);
+}
+.list_inline i:hover{
+  color: rgb(112, 92, 69);
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
